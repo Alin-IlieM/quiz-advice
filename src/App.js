@@ -34,6 +34,7 @@ const mapDispatchToProps = (dispatch) => {
 class App extends Component {
 
   componentDidMount() {
+    document.title = "Quiz Advice";
     this.props.onRequestQuiz();
     this.props.onRequestAdvice();
   }
