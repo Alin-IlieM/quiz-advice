@@ -1,0 +1,6 @@
+.advice-box {
+    background-color: #b71f1f;
+    opacity: 1;
+    background-image: radial-gradient(circle at center center, #A9B3FB, #b71f1f), repeating-radial-gradient(circle at center center, #A9B3FB, #A9B3FB, 40px, transparent 80px, transparent 40px);
+    background-blend-mode: multiply;
+}

@@ -1,5 +1,6 @@
 import React from 'react';
 import 'tachyons';
+import './advice.css';
 
 const Advice = (props) => {
     const {count} = props;
@@ -12,7 +13,7 @@ const Advice = (props) => {
     } 
 
     return (
-    <div className="tc pa4 georgia br-pill shadow-4 bg-washed-green">
+    <div className="advice-box tc pa3 georgia br4 shadow-4 w-80">
       <h1>{ advice }</h1>
       {hasAdvice && <p>{props.advice}</p>}
     </div>

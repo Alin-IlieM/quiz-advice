@@ -1,0 +1,6 @@
+.quiz-box {
+    background-color: #b71f1f;
+    opacity: 1;
+    background-image: radial-gradient(circle at center center, #a3be92, #b71f1f), repeating-radial-gradient(circle at center center, #a3be92, #a3be92, 10px, transparent 20px, transparent 10px);
+    background-blend-mode: multiply;
+}
